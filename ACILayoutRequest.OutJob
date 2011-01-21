@@ -4,7 +4,7 @@ Version=1.0
 [OutputGroup1]
 Name=ACILayoutRequest.OutJob
 Description=
-TargetOutputMedium=Full project document
+TargetOutputMedium=Assembly document
 IncludedInRelease=0
 TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
@@ -18,13 +18,13 @@ OutputMedium4=ACI document
 OutputMedium4_Type=Publish
 OutputMedium5=Assembly document
 OutputMedium5_Type=Publish
-OutputMedium6=Generate Files
+OutputMedium6=Generate BOM
 OutputMedium6_Type=GeneratedFiles
 OutputType1=PCB Print
 OutputName1=PCB infos
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=4
 OutputEnabled1_OutputMedium3=0
@@ -34,7 +34,7 @@ OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Item1=PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=11811024|PrintAreaLowerLeftCornerY=2755906|PrintAreaUpperRightCornerX=65551181|PrintAreaUpperRightCornerY=51771654|Record=PcbPrintView
 Configuration1_Name2=OutputConfigurationParameter2
 Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Top Solder|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration1_Name3=OutputConfigurationParameter3
@@ -219,7 +219,7 @@ OutputType10=PCB Print
 OutputName10=Implantation-Scale1to1
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=3
 OutputEnabled10_OutputMedium3=0
@@ -258,7 +258,7 @@ OutputType11=PCB Print
 OutputName11=Implantation-FitDocument
 OutputDocumentPath11=
 OutputVariantName11=
-OutputEnabled11=0
+OutputEnabled11=1
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
@@ -342,7 +342,7 @@ MarkPortsId2=1
 OutputFilePath2=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Thymio2-SCH-IMP-BOM-ACI.PDF
 PublishMethod4=0
 OpenOutput4=1
-PromptOverwrite4=1
+PromptOverwrite4=0
 ZoomLevel4=50
 FitSCHPrintSizeToDoc4=0
 FitPCBPrintSizeToDoc4=0
@@ -350,7 +350,7 @@ GenerateNetsInfo4=0
 MarkPins4=1
 MarkNetLabels4=1
 MarkPortsId4=1
-OutputFilePath4=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\aci\Thymio2.PDF
+OutputFilePath4=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\aci\Thymio2-main.PDF
 PublishMethod5=0
 OpenOutput5=1
 PromptOverwrite5=1
@@ -361,7 +361,7 @@ GenerateNetsInfo5=1
 MarkPins5=1
 MarkNetLabels5=1
 MarkPortsId5=1
-OutputFilePath5=C:\Users\Michael\Documents\Altium\thymio2\trunk\Thymio2-SCH-IMP-BOM.PDF
+OutputFilePath5=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Thymio2-Montage.PDF
 
 [CAMtasticOutputs]
 OpenODBOutput=False

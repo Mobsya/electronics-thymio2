@@ -191,15 +191,34 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[Document12]
+DocumentPath=thymio2 capa touch.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=..\..\Marxbot\mx31marxbot\trunk\mx31marxbot.PcbDoc.htm
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=..\..\Marxbot\mx31marxbot\trunk\mx31marxbot.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=..\..\lib dany\trunk\Templates\Template.PcbDoc.htm
 DItemRevisionGUID=
 
