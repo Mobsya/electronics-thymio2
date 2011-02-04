@@ -6,7 +6,7 @@ Name=ACILayoutRequest.OutJob
 Description=
 TargetOutputMedium=Assembly document
 IncludedInRelease=0
-TargetPrinter=Microsoft XPS Document Writer
+TargetPrinter=HP BW LaserJet 2800 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium1=ACI Generate Files
 OutputMedium1_Type=GeneratedFiles
@@ -140,12 +140,12 @@ OutputType5=BOM_PartType
 OutputName5=Bill of Materials
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=2
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
-OutputEnabled5_OutputMedium5=3
+OutputEnabled5_OutputMedium5=0
 OutputEnabled5_OutputMedium6=1
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
@@ -266,7 +266,7 @@ OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=2
 OutputEnabled11_OutputMedium6=0
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.29|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.48|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=28533465|PrintAreaLowerLeftCornerY=12814961|PrintAreaUpperRightCornerX=34458661|PrintAreaUpperRightCornerY=22381890|Record=PcbPrintView
 Configuration11_Name2=OutputConfigurationParameter2
@@ -307,6 +307,31 @@ OutputEnabled12_OutputMedium6=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=AddToAllPlots_Always=True|AddToAllPlots_Annotations=False|AddToAllPlots_BotBody=False|AddToAllPlots_BotCourtyard=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_ProE importation=False|AddToAllPlots_TopBody=False|AddToAllPlots_TopCourtyard=False|AddToAllPlots_V-Scoring=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=61|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=False|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=False|PlotTopSolderPlot=True|Record=ODBView
+OutputType13=BOM_PartType
+OutputName13=Bill of Materials by layers
+OutputDocumentPath13=
+OutputVariantName13=
+OutputEnabled13=1
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=5
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=3
+OutputEnabled13_OutputMedium6=2
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
+Configuration13_Name1=Filter
+Configuration13_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration13_Name2=General
+Configuration13_Item2=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|IncludePCBData=True|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1676|FormHeight=784|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration13_Name3=GroupOrder
+Configuration13_Item3=Layer=True|Comment=True|Footprint=True
+Configuration13_Name4=PCBDocument
+Configuration13_Item4=FileName=thymio2-main.PcbDoc
+Configuration13_Name5=SortOrder
+Configuration13_Item5=Layer=Up
+Configuration13_Name6=VisibleOrder
+Configuration13_Item6=Quantity=90|Comment=156|LibRef=82|Designator=1079|Description=198|Footprint=180|Supplier=62|Supplier Nr=270|Layer=100
 
 [GeneratedFilesSettings]
 RelativeOutputPath1=output\aci
@@ -361,7 +386,7 @@ GenerateNetsInfo5=1
 MarkPins5=1
 MarkNetLabels5=1
 MarkPortsId5=1
-OutputFilePath5=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Thymio2-Montage.PDF
+OutputFilePath5=Z:\thymio2\output\Thymio2-Montage.PDF
 
 [CAMtasticOutputs]
 OpenODBOutput=False
