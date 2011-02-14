@@ -4,9 +4,9 @@ Version=1.0
 [OutputGroup1]
 Name=ACILayoutRequest.OutJob
 Description=
-TargetOutputMedium=Assembly document
+TargetOutputMedium=Full project document
 IncludedInRelease=0
-TargetPrinter=HP BW LaserJet 2800 Series PS
+TargetPrinter=Xerox WorkCentre Pro 238
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium1=ACI Generate Files
 OutputMedium1_Type=GeneratedFiles
@@ -24,7 +24,7 @@ OutputType1=PCB Print
 OutputName1=PCB infos
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=4
 OutputEnabled1_OutputMedium3=0
@@ -105,7 +105,7 @@ OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=1
 OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=Record=SchPrintView|BooleanThing=False
 OutputType3=Gerber
@@ -140,7 +140,7 @@ OutputType5=BOM_PartType
 OutputName5=Bill of Materials
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=2
 OutputEnabled5_OutputMedium3=0
@@ -219,7 +219,7 @@ OutputType10=PCB Print
 OutputName10=Implantation-Scale1to1
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=3
 OutputEnabled10_OutputMedium3=0
@@ -258,7 +258,7 @@ OutputType11=PCB Print
 OutputName11=Implantation-FitDocument
 OutputDocumentPath11=
 OutputVariantName11=
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
@@ -311,15 +311,15 @@ OutputType13=BOM_PartType
 OutputName13=Bill of Materials by layers
 OutputDocumentPath13=
 OutputVariantName13=
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
-OutputEnabled13_OutputMedium2=5
+OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=3
 OutputEnabled13_OutputMedium6=2
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration13_Name1=Filter
 Configuration13_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration13_Name2=General
@@ -362,8 +362,8 @@ FitSCHPrintSizeToDoc2=0
 FitPCBPrintSizeToDoc2=0
 GenerateNetsInfo2=1
 MarkPins2=1
-MarkNetLabels2=1
-MarkPortsId2=1
+MarkNetLabels2=0
+MarkPortsId2=0
 OutputFilePath2=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Thymio2-SCH-IMP-BOM-ACI.PDF
 PublishMethod4=0
 OpenOutput4=1
@@ -386,7 +386,7 @@ GenerateNetsInfo5=1
 MarkPins5=1
 MarkNetLabels5=1
 MarkPortsId5=1
-OutputFilePath5=Z:\thymio2\output\Thymio2-Montage.PDF
+OutputFilePath5=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Thymio2-Montage.PDF
 
 [CAMtasticOutputs]
 OpenODBOutput=False
