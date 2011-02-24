@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: thymio2-main.PcbDoc   14.02.2011  11:50:10
+NCDrill File Report For: thymio2-main.PcbDoc   15.02.2011  01:42:15
 ---------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ EIA File   : thymio2-main.DRL
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        0.3mm (11.811mil)        Round          554              2107.69 mm (82.98 Inch)
+T1        0.3mm (11.811mil)        Round          568              2190.32 mm (86.23 Inch)
 T2        0.33mm (12.992mil)       Round          4                3.60 mm (0.14 Inch)
 T3        0.6mm (23.622mil)        Round          8                58.95 mm (2.32 Inch)
 T4        0.7mm (27.559mil)        Round          7                85.07 mm (3.35 Inch)
@@ -22,6 +22,6 @@ T11       2mm (78.74mil)           Round          3                76.65 mm (3.0
 T12       6mm (236.22mil)          Round          4                217.24 mm (8.55 Inch)
 T13       1.5mm (59.055mil)        Round          1         NPTH   0.00 mm (0.00 Inch)
 ---------------------------------------------------------------------------
-Totals                                            609              2710.52 mm (106.71 Inch)
+Totals                                            623              2793.15 mm (109.97 Inch)
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01

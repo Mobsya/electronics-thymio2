@@ -192,7 +192,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document12]
-DocumentPath=thymio2 capa touch.PcbDoc
+DocumentPath=thymio2-main-detourage-special.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -207,6 +207,21 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document13]
+DocumentPath=thymio2 capa touch.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document14]
 DocumentPath=thymio2 capa touch round.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
