@@ -244,6 +244,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
 DItemRevisionGUID=
 
+[GeneratedDocument3]
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch round.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=C:\Program Files\Altium Designer Summer 09\Library\Pcb\IPC-7350 Series\*.*
 IncludeSubFolders=1
