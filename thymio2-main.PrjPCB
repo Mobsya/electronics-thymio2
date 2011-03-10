@@ -236,6 +236,13 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[ProjectVariant1]
+Description=Variant of thymio2-main
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=output\Bill of Materials-thymio2-main.xls
 DItemRevisionGUID=
