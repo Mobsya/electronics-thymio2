@@ -1,5 +1,6 @@
 Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
 
+R136       RESC1608X06L          -11.7mm       -72.3mm       -11.7mm       -72.3mm      -12.45mm       -72.3mm  B        360.00 10K            
 U26        SOT95P285X100-5N     -12.325mm     -70.025mm     -12.325mm     -70.025mm     -10.975mm     -69.075mm  B        180.00 AP131-33WGCT-ND
 C72        RESC1608X06L         -15.25mm         -70mm      -15.25mm         -70mm      -15.25mm      -69.25mm  B        270.00 10uF           
 C40        RESC1608X06L          -9.25mm       -69.5mm       -9.25mm       -69.5mm       -9.25mm      -68.75mm  B        270.00 4.7uF          
