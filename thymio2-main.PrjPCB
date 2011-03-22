@@ -244,14 +244,18 @@ Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=output\Bill of Materials-thymio2-main.xls
+DocumentPath=output\Bill of Materials-thymio2-main(Variant of thymio2-main).xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Variant of thymio2-main).xls
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch round.html
 DItemRevisionGUID=
 
