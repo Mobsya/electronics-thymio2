@@ -252,10 +252,14 @@ DocumentPath=output\Bill of Materials by layers-thymio2-main(Variant of thymio2-
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DocumentPath=Project Outputs for thymio2-main\Board Information - thymio2-main.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch round.html
 DItemRevisionGUID=
 
