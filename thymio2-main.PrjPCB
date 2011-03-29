@@ -236,11 +236,37 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[Document15]
+DocumentPath=CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
 [ProjectVariant1]
 Description=Variant of thymio2-main
 ParameterCount=0
 VariationCount=1
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+Description=Test point variant
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
+Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
+Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
+Variation4=Designator=X3|UniqueId=\XTHGNPMR\VCSCIKMK|Kind=1|AlternatePart= 
+Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -252,15 +278,27 @@ DocumentPath=output\Bill of Materials by layers-thymio2-main(Variant of thymio2-
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for thymio2-main\Board Information - thymio2-main.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=output\testpoint\Test Point cordinate.csv
+DItemRevisionGUID=
+
 [GeneratedDocument5]
-DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch round.html
+DocumentPath=output\testpoint\Test Point cordinate.txt
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.csv
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.ipc
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.txt
 DItemRevisionGUID=
 
 [SearchPath1]
