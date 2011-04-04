@@ -4,7 +4,7 @@ Version=1.0
 [OutputGroup1]
 Name=ACILayoutRequest.OutJob
 Description=
-TargetOutputMedium=Assembly document
+TargetOutputMedium=for certif
 IncludedInRelease=0
 TargetPrinter=Xerox WorkCentre Pro 238
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
@@ -24,6 +24,8 @@ OutputMedium7=Test point
 OutputMedium7_Type=GeneratedFiles
 OutputMedium8=testpoint
 OutputMedium8_Type=Publish
+OutputMedium9=for certif
+OutputMedium9_Type=Publish
 OutputType1=PCB Print
 OutputName1=PCB infos main
 OutputDocumentPath1=
@@ -37,6 +39,7 @@ OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration1_Name1=OutputConfigurationParameter1
@@ -124,6 +127,7 @@ OutputEnabled2_OutputMedium5=0
 OutputEnabled2_OutputMedium6=0
 OutputEnabled2_OutputMedium7=0
 OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration2_Name1=OutputConfigurationParameter1
@@ -141,6 +145,7 @@ OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
 OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -157,6 +162,7 @@ OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputEnabled4_OutputMedium7=0
 OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=629921|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
@@ -164,7 +170,7 @@ OutputType5=BOM_PartType
 OutputName5=Bill of Materials
 OutputDocumentPath5=
 OutputVariantName5=Variant of thymio2-main
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=2
 OutputEnabled5_OutputMedium3=0
@@ -173,6 +179,7 @@ OutputEnabled5_OutputMedium5=2
 OutputEnabled5_OutputMedium6=1
 OutputEnabled5_OutputMedium7=0
 OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration5_Name1=Filter
@@ -200,6 +207,7 @@ OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=0
 OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
 OutputType7=ReportHierarchy
 OutputName7=Report Project Hierarchy
@@ -214,6 +222,7 @@ OutputEnabled7_OutputMedium5=0
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=0
 OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
@@ -230,6 +239,7 @@ OutputEnabled8_OutputMedium5=0
 OutputEnabled8_OutputMedium6=0
 OutputEnabled8_OutputMedium7=0
 OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=SimpleBOMView|SimpleBOMMode=0
@@ -246,6 +256,7 @@ OutputEnabled9_OutputMedium5=0
 OutputEnabled9_OutputMedium6=0
 OutputEnabled9_OutputMedium7=0
 OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=NetlistVersion=0|Record=SinglePinNetsView
@@ -262,6 +273,7 @@ OutputEnabled10_OutputMedium5=0
 OutputEnabled10_OutputMedium6=0
 OutputEnabled10_OutputMedium7=0
 OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration10_Name1=OutputConfigurationParameter1
@@ -294,7 +306,7 @@ OutputType11=PCB Print
 OutputName11=Implantation-FitDocument
 OutputDocumentPath11=
 OutputVariantName11=
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
@@ -303,6 +315,7 @@ OutputEnabled11_OutputMedium5=1
 OutputEnabled11_OutputMedium6=0
 OutputEnabled11_OutputMedium7=0
 OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium9=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.48|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration11_Name1=OutputConfigurationParameter1
@@ -344,6 +357,7 @@ OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
 OutputEnabled12_OutputMedium7=0
 OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=AddToAllPlots_Always=True|AddToAllPlots_Annotations=False|AddToAllPlots_BotBody=False|AddToAllPlots_BotCourtyard=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_ProE importation=False|AddToAllPlots_TopBody=False|AddToAllPlots_TopCourtyard=False|AddToAllPlots_V-Scoring=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=61|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=False|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=False|PlotTopSolderPlot=True|Record=ODBView
@@ -351,7 +365,7 @@ OutputType13=BOM_PartType
 OutputName13=Bill of Materials by layers
 OutputDocumentPath13=
 OutputVariantName13=Variant of thymio2-main
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -360,6 +374,7 @@ OutputEnabled13_OutputMedium5=3
 OutputEnabled13_OutputMedium6=2
 OutputEnabled13_OutputMedium7=0
 OutputEnabled13_OutputMedium8=0
+OutputEnabled13_OutputMedium9=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.50|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration13_Name1=Filter
@@ -387,6 +402,7 @@ OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputEnabled14_OutputMedium7=0
 OutputEnabled14_OutputMedium8=0
+OutputEnabled14_OutputMedium9=0
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.46|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration14_Name1=OutputConfigurationParameter1
@@ -428,6 +444,7 @@ OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
 OutputEnabled15_OutputMedium7=0
 OutputEnabled15_OutputMedium8=0
+OutputEnabled15_OutputMedium9=0
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.60|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration15_Name1=OutputConfigurationParameter1
@@ -503,6 +520,7 @@ OutputEnabled16_OutputMedium5=0
 OutputEnabled16_OutputMedium6=0
 OutputEnabled16_OutputMedium7=0
 OutputEnabled16_OutputMedium8=0
+OutputEnabled16_OutputMedium9=0
 OutputDefault16=0
 Configuration16_Name1=OutputConfigurationParameter1
 Configuration16_Item1=BoardEdgeRoutToolDia=629921|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
@@ -519,6 +537,7 @@ OutputEnabled17_OutputMedium5=0
 OutputEnabled17_OutputMedium6=0
 OutputEnabled17_OutputMedium7=0
 OutputEnabled17_OutputMedium8=0
+OutputEnabled17_OutputMedium9=0
 OutputDefault17=0
 Configuration17_Name1=OutputConfigurationParameter1
 Configuration17_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973834~1,16777217~1,16842751~1,16973835~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -535,6 +554,7 @@ OutputEnabled18_OutputMedium5=0
 OutputEnabled18_OutputMedium6=0
 OutputEnabled18_OutputMedium7=0
 OutputEnabled18_OutputMedium8=0
+OutputEnabled18_OutputMedium9=0
 OutputDefault18=0
 Configuration18_Name1=OutputConfigurationParameter1
 Configuration18_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True
@@ -542,7 +562,7 @@ OutputType19=Assembly
 OutputName19=Assembly Drawings
 OutputDocumentPath19=thymio2-main.PcbDoc
 OutputVariantName19=Variant of thymio2-main
-OutputEnabled19=1
+OutputEnabled19=0
 OutputEnabled19_OutputMedium1=0
 OutputEnabled19_OutputMedium2=0
 OutputEnabled19_OutputMedium3=0
@@ -551,6 +571,7 @@ OutputEnabled19_OutputMedium5=4
 OutputEnabled19_OutputMedium6=0
 OutputEnabled19_OutputMedium7=0
 OutputEnabled19_OutputMedium8=0
+OutputEnabled19_OutputMedium9=0
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration19_Name1=OutputConfigurationParameter1
@@ -612,6 +633,7 @@ OutputEnabled20_OutputMedium5=0
 OutputEnabled20_OutputMedium6=0
 OutputEnabled20_OutputMedium7=1
 OutputEnabled20_OutputMedium8=0
+OutputEnabled20_OutputMedium9=0
 OutputDefault20=0
 Configuration20_Name1=OutputConfigurationParameter1
 Configuration20_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=True|AssyGenerateIPCFormat=False|AssyGenerateSpreadSheetFormat=True|AssyGenerateTextFormat=True|AssyOutlineLayer=57|AssyOutputAdjancencies=False|AssyOutputBoardOutline=True|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Metric|Record=TestPointView
@@ -628,6 +650,7 @@ OutputEnabled21_OutputMedium5=0
 OutputEnabled21_OutputMedium6=0
 OutputEnabled21_OutputMedium7=0
 OutputEnabled21_OutputMedium8=0
+OutputEnabled21_OutputMedium9=0
 OutputDefault21=0
 PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration21_Name1=OutputConfigurationParameter1
@@ -645,6 +668,7 @@ OutputEnabled22_OutputMedium5=0
 OutputEnabled22_OutputMedium6=0
 OutputEnabled22_OutputMedium7=0
 OutputEnabled22_OutputMedium8=1
+OutputEnabled22_OutputMedium9=0
 OutputDefault22=0
 PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.86|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 Configuration22_Name1=OutputConfigurationParameter1
@@ -668,6 +692,7 @@ OutputEnabled23_OutputMedium5=0
 OutputEnabled23_OutputMedium6=0
 OutputEnabled23_OutputMedium7=0
 OutputEnabled23_OutputMedium8=2
+OutputEnabled23_OutputMedium9=0
 OutputDefault23=0
 PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration23_Name1=OutputConfigurationParameter1
@@ -691,6 +716,7 @@ OutputEnabled24_OutputMedium5=0
 OutputEnabled24_OutputMedium6=0
 OutputEnabled24_OutputMedium7=0
 OutputEnabled24_OutputMedium8=3
+OutputEnabled24_OutputMedium9=0
 OutputDefault24=0
 PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
 Configuration24_Name1=OutputConfigurationParameter1
@@ -723,6 +749,78 @@ Configuration24_Name14=OutputConfigurationParameter14
 Configuration24_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration24_Name15=OutputConfigurationParameter15
 Configuration24_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+OutputType25=PCB Print
+OutputName25=PCB Prints PAD distance
+OutputDocumentPath25=thymio2-main.PcbDoc
+OutputVariantName25=
+OutputEnabled25=1
+OutputEnabled25_OutputMedium1=0
+OutputEnabled25_OutputMedium2=0
+OutputEnabled25_OutputMedium3=0
+OutputEnabled25_OutputMedium4=0
+OutputEnabled25_OutputMedium5=0
+OutputEnabled25_OutputMedium6=0
+OutputEnabled25_OutputMedium7=0
+OutputEnabled25_OutputMedium8=0
+OutputEnabled25_OutputMedium9=2
+OutputDefault25=0
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.82|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+Configuration25_Name1=OutputConfigurationParameter1
+Configuration25_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration25_Name2=OutputConfigurationParameter2
+Configuration25_Item2=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=TOP PAD Distance|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration25_Name3=OutputConfigurationParameter3
+Configuration25_Item3=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=Mechanical13|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration25_Name4=OutputConfigurationParameter4
+Configuration25_Item4=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopSolder|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration25_Name5=OutputConfigurationParameter5
+Configuration25_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration25_Name6=OutputConfigurationParameter6
+Configuration25_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration25_Name7=OutputConfigurationParameter7
+Configuration25_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|Index=1|Mirror=False|Name=BOT PAD Distance|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration25_Name8=OutputConfigurationParameter8
+Configuration25_Item8=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=Mechanical14|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration25_Name9=OutputConfigurationParameter9
+Configuration25_Item9=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomSolder|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration25_Name10=OutputConfigurationParameter10
+Configuration25_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration25_Name11=OutputConfigurationParameter11
+Configuration25_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+OutputType26=PCB Print
+OutputName26=PCB Prints PAD distance 1:1
+OutputDocumentPath26=thymio2-main.PcbDoc
+OutputVariantName26=
+OutputEnabled26=1
+OutputEnabled26_OutputMedium1=0
+OutputEnabled26_OutputMedium2=0
+OutputEnabled26_OutputMedium3=0
+OutputEnabled26_OutputMedium4=0
+OutputEnabled26_OutputMedium5=0
+OutputEnabled26_OutputMedium6=0
+OutputEnabled26_OutputMedium7=0
+OutputEnabled26_OutputMedium8=0
+OutputEnabled26_OutputMedium9=1
+OutputDefault26=0
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
+Configuration26_Name1=OutputConfigurationParameter1
+Configuration26_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration26_Name2=OutputConfigurationParameter2
+Configuration26_Item2=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=TOP PAD Distance|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration26_Name3=OutputConfigurationParameter3
+Configuration26_Item3=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration26_Name4=OutputConfigurationParameter4
+Configuration26_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration26_Name5=OutputConfigurationParameter5
+Configuration26_Item5=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=Mechanical13|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration26_Name6=OutputConfigurationParameter6
+Configuration26_Item6=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|Index=1|Mirror=False|Name=BOT PAD Distance|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration26_Name7=OutputConfigurationParameter7
+Configuration26_Item7=CArc=Full|CFill=Full|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=Mechanical14|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration26_Name8=OutputConfigurationParameter8
+Configuration26_Item8=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration26_Name9=OutputConfigurationParameter9
+Configuration26_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 
 [GeneratedFilesSettings]
 RelativeOutputPath1=output\aci
@@ -795,6 +893,17 @@ MarkPins8=1
 MarkNetLabels8=1
 MarkPortsId8=1
 OutputFilePath8=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\testpoint\Thymio2-TestPoint.PDF
+PublishMethod9=0
+OpenOutput9=1
+PromptOverwrite9=1
+ZoomLevel9=50
+FitSCHPrintSizeToDoc9=0
+FitPCBPrintSizeToDoc9=0
+GenerateNetsInfo9=0
+MarkPins9=1
+MarkNetLabels9=1
+MarkPortsId9=1
+OutputFilePath9=C:\Users\Michael\Documents\Altium\thymio2\trunk\output\Composant distance.PDF
 
 [CAMtasticOutputs]
 OpenODBOutput=False
