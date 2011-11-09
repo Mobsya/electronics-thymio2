@@ -16,7 +16,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -29,6 +29,7 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
 
 [Document1]
 DocumentPath=thymio2-main.SchDoc
@@ -207,38 +208,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document12]
-DocumentPath=thymio2-main-detourage-special.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document13]
-DocumentPath=thymio2 capa touch.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document14]
 DocumentPath=thymio2 capa touch round.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +223,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document15]
+[Document13]
 DocumentPath=CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,48 +239,34 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document16]
-DocumentPath=CAMtastic2.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
 [ProjectVariant1]
-Description=Variant of thymio2-main
+Description=Production Thymio2
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=2
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
 Description=Test point variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
 Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
 Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
 Variation4=Designator=X3|UniqueId=\XTHGNPMR\VCSCIKMK|Kind=1|AlternatePart= 
 Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
+Variation6=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=output\Bill of Materials-thymio2-main(Variant of thymio2-main).xls
+DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(Variant of thymio2-main).xls
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
@@ -319,22 +274,26 @@ DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.h
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=output\testpoint\Test Point cordinate.csv
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa touch round.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=output\testpoint\Test Point cordinate.txt
+DocumentPath=output\testpoint\Test Point cordinate.csv
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for thymio2-main\Test Point Report.csv
+DocumentPath=output\testpoint\Test Point cordinate.txt
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for thymio2-main\Test Point Report.ipc
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.csv
 DItemRevisionGUID=
 
 [GeneratedDocument8]
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.ipc
+DItemRevisionGUID=
+
+[GeneratedDocument9]
 DocumentPath=Project Outputs for thymio2-main\Test Point Report.txt
 DItemRevisionGUID=
 
