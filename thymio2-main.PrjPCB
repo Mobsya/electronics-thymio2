@@ -239,6 +239,38 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document14]
+DocumentPath=thymio2-main.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document15]
+DocumentPath=CAMV1.502.04.2012.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
 Description=Production Thymio2
 AllowFabrication=0
@@ -278,31 +310,135 @@ DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2 capa t
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=output\testpoint\Test Point cordinate.csv
+DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2).txt
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=output\testpoint\Test Point cordinate.txt
+DocumentPath=output\testpoint\Test Point cordinate.csv
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for thymio2-main\Test Point Report.csv
+DocumentPath=output\testpoint\Test Point cordinate.txt
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for thymio2-main\Test Point Report.ipc
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.csv
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for thymio2-main\Test Point Report.txt
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.ipc
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=thymio2-main.PcbDoc.htm
+DocumentPath=Project Outputs for thymio2-main\Test Point Report.txt
 DItemRevisionGUID=
 
 [GeneratedDocument11]
+DocumentPath=output\aci\thymio2-main.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=output\aci\thymio2-main.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=output\aci\thymio2-main.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=output\aci\thymio2-main.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=output\aci\thymio2-main.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=output\aci\thymio2-main.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=output\aci\thymio2-main.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=output\aci\thymio2-main.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=output\aci\thymio2-main.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=output\aci\thymio2-main.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=output\aci\thymio2-main.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=output\aci\thymio2-main.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=output\aci\thymio2-main.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=thymio2-main.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=output\aci\thymio2-main.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=output\aci\thymio2-main.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=output\aci\thymio2 capa touch round.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=output\aci\thymio2 capa touch round.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=output\aci\thymio2 capa touch round.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=output\aci\thymio2 capa touch round.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=output\aci\thymio2 capa touch round.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=output\aci\thymio2 capa touch round.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=output\aci\thymio2 capa touch round.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=output\aci\thymio2 capa touch round.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
 DocumentPath=thymio2 capa touch round.PCB3D
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=output\aci\thymio2 capa touch round.REP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=output\aci\thymio2 capa touch round.TXT
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -575,6 +711,12 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType18=PCBLIB Print
+OutputName18=PCBLIB Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -908,8 +1050,18 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=ExportSTEP
 OutputName1=Export STEP
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf PCB
+OutputName2=AutoCAD dwg/dxf File PCB
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=AutoCAD dwg/dxf Schematic
+OutputName3=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [Modification Levels]
 Type1=1
