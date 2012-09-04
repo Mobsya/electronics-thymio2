@@ -271,6 +271,38 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document16]
+DocumentPath=..\..\LSROAltium\PcbLib\CAPC - CAPacitorChip.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document17]
+DocumentPath=CAMV1.6-28.08.2012.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
 Description=Production Thymio2
 AllowFabrication=0
@@ -434,10 +466,14 @@ DocumentPath=thymio2 capa touch round.PCB3D
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=output\aci\thymio2 capa touch round.REP
+DocumentPath=thymio2 capa touch round.PcbDoc.htm
 DItemRevisionGUID=
 
 [GeneratedDocument37]
+DocumentPath=output\aci\thymio2 capa touch round.REP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
 DocumentPath=output\aci\thymio2 capa touch round.TXT
 DItemRevisionGUID=
 
