@@ -1,4 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=thymio2-main.PrjPCB
+ProjectPath=..\..\Marxbot\Magnetic-Gripper\Main\trunk\Main_Magnetic_Gripper.PrjPCB
+[Project2]
+ProjectPath=..\..\Marxbot\Magnetic-Gripper\slidding-ring\trunk\SliddingRing.PrjPCB
