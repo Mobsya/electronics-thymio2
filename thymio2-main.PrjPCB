@@ -387,6 +387,22 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document23]
+DocumentPath=CAMV1.72-28.03.14.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [ProjectVariant1]
 Description=Production Thymio2
 AllowFabrication=0
@@ -462,122 +478,130 @@ DocumentPath=Project Outputs for thymio2-main\ExportSTEP\thymio2-main(Production
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for thymio2-main\ExportIDF\thymio2-main.brd
+DocumentPath=output\aci\thymio2-main-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=output\aci\thymio2-main.DRR
+DocumentPath=output\aci\thymio2-main-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=output\aci\thymio2-main.EXTREP
+DocumentPath=Project Outputs for thymio2-main\ExportIDF\thymio2-main.brd
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=output\aci\thymio2-main.GBL
+DocumentPath=output\aci\thymio2-main.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=output\aci\thymio2-main.GBO
+DocumentPath=output\aci\thymio2-main.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=output\aci\thymio2-main.GBP
+DocumentPath=output\aci\thymio2-main.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=output\aci\thymio2-main.GBS
+DocumentPath=output\aci\thymio2-main.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=output\aci\thymio2-main.GM1
+DocumentPath=output\aci\thymio2-main.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=output\aci\thymio2-main.GM3
+DocumentPath=output\aci\thymio2-main.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=output\aci\thymio2-main.GTL
+DocumentPath=output\aci\thymio2-main.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=output\aci\thymio2-main.GTO
+DocumentPath=output\aci\thymio2-main.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=output\aci\thymio2-main.GTP
+DocumentPath=output\aci\thymio2-main.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=output\aci\thymio2-main.GTS
+DocumentPath=output\aci\thymio2-main.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=output\aci\thymio2-main.LDP
+DocumentPath=output\aci\thymio2-main.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=thymio2-main.PCB3D
+DocumentPath=output\aci\thymio2-main.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=thymio2-main.PcbDoc.htm
+DocumentPath=output\aci\thymio2-main.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=output\aci\thymio2-main.REP
+DocumentPath=thymio2-main.PCB3D
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=output\aci\thymio2-main.TXT
+DocumentPath=thymio2-main.PcbDoc.htm
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=output\aci\thymio2 capa touch round.DRR
+DocumentPath=output\aci\thymio2-main.REP
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=output\aci\thymio2 capa touch round.EXTREP
+DocumentPath=output\aci\thymio2-main.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=output\aci\thymio2 capa touch round.GBL
+DocumentPath=output\aci\thymio2 capa touch round.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=output\aci\thymio2 capa touch round.GBS
+DocumentPath=output\aci\thymio2 capa touch round.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=output\aci\thymio2 capa touch round.GM1
+DocumentPath=output\aci\thymio2 capa touch round.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=output\aci\thymio2 capa touch round.GTL
+DocumentPath=output\aci\thymio2 capa touch round.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=output\aci\thymio2 capa touch round.GTS
+DocumentPath=output\aci\thymio2 capa touch round.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=output\aci\thymio2 capa touch round.LDP
+DocumentPath=output\aci\thymio2 capa touch round.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=thymio2 capa touch round.PCB3D
+DocumentPath=output\aci\thymio2 capa touch round.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=thymio2 capa touch round.PcbDoc.htm
+DocumentPath=output\aci\thymio2 capa touch round.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=output\aci\thymio2 capa touch round.REP
+DocumentPath=thymio2 capa touch round.PCB3D
 DItemRevisionGUID=
 
 [GeneratedDocument43]
+DocumentPath=thymio2 capa touch round.PcbDoc.htm
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=output\aci\thymio2 capa touch round.REP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
 DocumentPath=output\aci\thymio2 capa touch round.TXT
 DItemRevisionGUID=
 
