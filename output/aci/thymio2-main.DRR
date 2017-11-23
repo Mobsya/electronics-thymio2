@@ -1,27 +1,29 @@
----------------------------------------------------------------------------
-NCDrill File Report For: thymio2-main.PcbDoc   28.03.2014  14:41:41
----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: thymio2-main.PcbDoc   23.11.2017  21:23:17
+----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
 ASCII RoundHoles File : thymio2-main-RoundHoles.TXT
 ASCII SlotHoles File : thymio2-main-SlotHoles.TXT
 
-Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
----------------------------------------------------------------------------
-T1        0.3mm (11.811mil)        Round          751              2551.93 mm (100.47 Inch)
-T2        0.33mm (12.992mil)       Round          4                3.60 mm (0.14 Inch)
-T3        0.6mm (23.622mil)        Round          2                1.25 mm (0.05 Inch)
-T4        0.7mm (27.559mil)        Round          13               126.08 mm (4.96 Inch)
-T5        0.8mm (31.496mil)        Round          8                36.76 mm (1.45 Inch)
-T6        0.8mm (31.496mil)        Slot           2                7283.97 mm (286.77 Inch)
-T7        0.8001mm (31.5mil)       Round          6                13.00 mm (0.51 Inch)
-T8        0.9mm (35.433mil)        Round          12               186.56 mm (7.35 Inch)
-T9        1mm (39.37mil)           Round          2                4.50 mm (0.18 Inch)
-T10       1.4mm (55.118mil)        Round          2                7.01 mm (0.28 Inch)
-T11       2mm (78.74mil)           Round          3                76.65 mm (3.02 Inch)
-T12       6mm (236.22mil)          Round          4                217.24 mm (8.55 Inch)
-T13       1.5mm (59.055mil)        Round          1         NPTH   0.00 mm (0.00 Inch)
----------------------------------------------------------------------------
-Totals                                            810              10508.56 mm (413.72 Inch)
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             748       PTH        2518.51mm (99.15inch)
+T2      0.33mm (13mil)                                            Round             4         PTH        3.60mm (0.14inch)
+T3      0.55mm (22mil)                                            Slot              2         PTH        16.83mm (0.66inch)
+T4      0.6mm (24mil)                                             Round             2         PTH        1.25mm (0.05inch)
+T5      0.7mm (28mil)                                             Round             13        PTH        126.08mm (4.96inch)
+T6      0.8mm (31mil)                                             Round             8         PTH        36.76mm (1.45inch)
+T7      0.8mm (32mil)                                             Round             6         PTH        13.00mm (0.51inch)
+T8      0.85mm (33mil)                                            Slot              2         PTH        16.02mm (0.63inch)
+T9      0.9mm (35mil)                                             Round             12        PTH        186.55mm (7.34inch)
+T10     1mm (39mil)                                               Round             2         PTH        4.50mm (0.18inch)
+T11     1.4mm (55mil)                                             Round             2         PTH        7.01mm (0.28inch)
+T12     2mm (79mil)                                               Round             3         PTH        76.65mm (3.02inch)
+T13     6mm (236mil)                                              Round             4         PTH        217.24mm (8.55inch)
+T14     0.8mm (31mil)                                             Round             2         NPTH       5.00mm (0.20inch)
+T15     1.5mm (59mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              811
 
-Total Processing Time (hh:mm:ss) : 00:00:02
+Total Processing Time (hh:mm:ss) : 00:00:01
