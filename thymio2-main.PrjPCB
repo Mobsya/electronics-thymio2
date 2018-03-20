@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for thymio2-main
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -485,10 +485,15 @@ UniqueID=16B97BD8-CEF0-480D-8AF2-76A6B2AA2125
 Description=Production Thymio2
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=5
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
 Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation3=Designator=R160|UniqueId=\HNNNTLMX\LYNRBETH|Kind=1|AlternatePart= 
+Variation4=Designator=R161|UniqueId=\HNNNTLMX\IDXWUKWJ|Kind=1|AlternatePart= 
+Variation5=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
+ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
+ParamDesignator1=U27
+ParamVariationCount=1
 
 [ProjectVariant2]
 UniqueID=BC712176-8ADE-4ABB-A210-083B107A439E
@@ -499,7 +504,7 @@ VariationCount=6
 Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
 Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
 Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
-Variation4=Designator=X3|UniqueId=\XTHGNPMR\VCSCIKMK|Kind=1|AlternatePart= 
+Variation4=Designator=X3|UniqueId=\XTHGNPMR\SMKPVGHS|Kind=1|AlternatePart= 
 Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
 Variation6=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
 ParamVariationCount=0
@@ -666,8 +671,44 @@ OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
 
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=Production Thymio2
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
+
 [Generic_EDE]
-OutputDir=Project Outputs for thymio2-main
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
