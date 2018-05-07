@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for thymio2-main
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -480,6 +480,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document27]
+DocumentPath=CAMV2.00-23.03.18.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=16B97BD8-CEF0-480D-8AF2-76A6B2AA2125
 Description=Production Thymio2
@@ -500,156 +517,214 @@ UniqueID=BC712176-8ADE-4ABB-A210-083B107A439E
 Description=Test point variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
+VariationCount=7
 Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
 Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
 Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
 Variation4=Designator=X3|UniqueId=\XTHGNPMR\SMKPVGHS|Kind=1|AlternatePart= 
 Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
 Variation6=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation7=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
+ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
+ParamDesignator1=U27
+ParamVariationCount=1
+
+[ProjectVariant3]
+UniqueID=B410D89B-41EA-4E46-A31C-BF288972525C
+Description=EMS-Proto
+AllowFabrication=0
+ParameterCount=0
+VariationCount=21
+Variation1=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
+Variation2=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
+Variation3=Designator=R160|UniqueId=\HNNNTLMX\LYNRBETH|Kind=1|AlternatePart= 
+Variation4=Designator=R161|UniqueId=\HNNNTLMX\IDXWUKWJ|Kind=1|AlternatePart= 
+Variation5=Designator=U2|UniqueId=\QLKKVXHK\IWNQUMWC|Kind=1|AlternatePart= 
+Variation6=Designator=U3|UniqueId=\QLKKVXHK\BCBQGUOF|Kind=1|AlternatePart= 
+Variation7=Designator=U6|UniqueId=\QLKKVXHK\RVSXQDES|Kind=1|AlternatePart= 
+Variation8=Designator=U7|UniqueId=\QLKKVXHK\IJAIWKWR|Kind=1|AlternatePart= 
+Variation9=Designator=U8|UniqueId=\QLKKVXHK\OHYXWQGM|Kind=1|AlternatePart= 
+Variation10=Designator=U9|UniqueId=\QLKKVXHK\NUWKTFOM|Kind=1|AlternatePart= 
+Variation11=Designator=U10|UniqueId=\QLKKVXHK\OHVFKWYS|Kind=1|AlternatePart= 
+Variation12=Designator=U11|UniqueId=\QLKKVXHK\FYVIMMFP|Kind=1|AlternatePart= 
+Variation13=Designator=U12|UniqueId=\QLKKVXHK\RDIKDAAI|Kind=1|AlternatePart= 
+Variation14=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
+ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
+ParamDesignator1=U27
+Variation15=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+Variation16=Designator=X2|UniqueId=\EMILSHYX\EJLBGDNK|Kind=1|AlternatePart= 
+Variation17=Designator=D20|UniqueId=\HNNNTLMX\TFBVAGGW|Kind=1|AlternatePart= 
+Variation18=Designator=D19|UniqueId=\HNNNTLMX\EJAKMTSM|Kind=1|AlternatePart= 
+Variation19=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
+Variation20=Designator=LS1|UniqueId=\TSXKLIIC\VAAEKWGW|Kind=1|AlternatePart= 
+Variation21=Designator=BT1|UniqueId=\XTHGNPMR\UFOCPQNX|Kind=1|AlternatePart= 
+ParamVariationCount=1
 
 [GeneratedDocument1]
-DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).csv
+DocumentPath=output\Bill of Materials-thymio2-main(EMS-Proto).csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).xlsx
+DocumentPath=output\Bill of Materials-thymio2-main(Only SMD).csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).csv
+DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).xlsx
+DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DocumentPath=output\Bill of Materials by layers-thymio2-main(EMS-Proto).csv
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2).txt
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Only SMD).csv
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=output\aci\Pick Place for thymio2-main.txt
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).csv
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for thymio2-main\ExportSTEP\thymio2-main(Production Thymio2).step
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=output\aci\thymio2-main-RoundHoles.TXT
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=output\aci\thymio2-main-SlotHoles.TXT
+DocumentPath=output\aci\Pick Place for thymio2-main(EMS-Proto).txt
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=output\aci\thymio2-main.DRR
+DocumentPath=output\aci\Pick Place for thymio2-main(Only SMD).txt
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=output\aci\thymio2-main.EXTREP
+DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2).txt
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=output\aci\thymio2-main.GBL
+DocumentPath=output\aci\Pick Place for thymio2-main.txt
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=output\aci\thymio2-main.GBO
+DocumentPath=Project Outputs for thymio2-main\ExportSTEP\thymio2-main(Production Thymio2).step
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=output\aci\thymio2-main.GBP
+DocumentPath=output\aci\thymio2-main-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=output\aci\thymio2-main.GBS
+DocumentPath=output\aci\thymio2-main-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=output\aci\thymio2-main.GM1
+DocumentPath=output\aci\thymio2-main.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=output\aci\thymio2-main.GM3
+DocumentPath=output\aci\thymio2-main.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=output\aci\thymio2-main.GTL
+DocumentPath=output\aci\thymio2-main.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=output\aci\thymio2-main.GTO
+DocumentPath=output\aci\thymio2-main.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=output\aci\thymio2-main.GTP
+DocumentPath=output\aci\thymio2-main.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=output\aci\thymio2-main.GTS
+DocumentPath=output\aci\thymio2-main.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=output\aci\thymio2-main.LDP
+DocumentPath=output\aci\thymio2-main.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=thymio2-main.PcbDoc.htm
+DocumentPath=output\aci\thymio2-main.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=output\aci\thymio2-main.REP
+DocumentPath=output\aci\thymio2-main.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=output\aci\thymio2-main.TXT
+DocumentPath=output\aci\thymio2-main.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=output\aci\thymio2 capa touch round.DRR
+DocumentPath=output\aci\thymio2-main.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=output\aci\thymio2 capa touch round.EXTREP
+DocumentPath=output\aci\thymio2-main.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=output\aci\thymio2 capa touch round.GBL
+DocumentPath=output\aci\thymio2-main.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=output\aci\thymio2 capa touch round.GBS
+DocumentPath=thymio2-main.PcbDoc.htm
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=output\aci\thymio2 capa touch round.GM1
+DocumentPath=output\aci\thymio2-main.REP
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=output\aci\thymio2 capa touch round.GTL
+DocumentPath=output\aci\thymio2-main.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=output\aci\thymio2 capa touch round.GTS
+DocumentPath=output\aci\thymio2 capa touch round.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=output\aci\thymio2 capa touch round.LDP
+DocumentPath=output\aci\thymio2 capa touch round.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=output\aci\thymio2 capa touch round.REP
+DocumentPath=output\aci\thymio2 capa touch round.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument36]
+DocumentPath=output\aci\thymio2 capa touch round.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=output\aci\thymio2 capa touch round.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=output\aci\thymio2 capa touch round.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=output\aci\thymio2 capa touch round.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=output\aci\thymio2 capa touch round.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=output\aci\thymio2 capa touch round.REP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
 DocumentPath=output\aci\thymio2 capa touch round.TXT
 DItemRevisionGUID=
 
@@ -708,7 +783,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for thymio2-main
 
 [OutputGroup1]
 Name=Netlist Outputs
