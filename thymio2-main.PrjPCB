@@ -514,6 +514,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+<<<<<<< HEAD
 [Document29]
 DocumentPath=CAMV2.10-04.07.18.Cam
 AnnotationEnabled=1
@@ -531,6 +532,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+=======
+>>>>>>> dfd80bb445a3c6774fdee837221b8278cd4eea97
 [ProjectVariant1]
 UniqueID=16B97BD8-CEF0-480D-8AF2-76A6B2AA2125
 Description=Production Thymio2
