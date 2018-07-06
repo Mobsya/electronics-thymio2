@@ -1,9 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-NCDrill File Report For: thymio2-main.PcbDoc   04.07.2018  16:11:48
-=======
-NCDrill File Report For: thymio2-main.PcbDoc   01.06.2018  13:45:51
->>>>>>> dfd80bb445a3c6774fdee837221b8278cd4eea97
+NCDrill File Report For: thymio2-main.PcbDoc   06.07.2018  15:48:39
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -12,11 +8,7 @@ ASCII SlotHoles File : thymio2-main-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-T1      0.3mm (12mil)                                             Round             759       PTH        2500.23mm (98.43inch)
-=======
-T1      0.3mm (12mil)                                             Round             759       PTH        2564.52mm (100.97inch)
->>>>>>> dfd80bb445a3c6774fdee837221b8278cd4eea97
+T1      0.3mm (12mil)                                             Round             759       PTH        2531.59mm (99.67inch)
 T2      0.33mm (13mil)                                            Round             4         PTH        3.60mm (0.14inch)
 T3      0.55mm (22mil)                                            Slot              2         PTH        16.83mm (0.66inch)
 T4      0.6mm (24mil)                                             Round             2         PTH        1.25mm (0.05inch)
@@ -34,4 +26,4 @@ T15     1.5mm (59mil)                                             Round         
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              822
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
