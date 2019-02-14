@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=ACILayoutRequest.OutJob
 Description=
-TargetOutputMedium=STEP
-VariantName=Production Thymio2
+TargetOutputMedium=Generate BOM
+VariantName=EMS-Proto
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-L8410CDW series Printer
+TargetPrinter=Canon MX920 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=ACI Generate Files
 OutputMedium1_Type=GeneratedFiles
@@ -196,8 +196,8 @@ OutputType5=BOM_PartType
 OutputName5=Bill of Materials
 OutputCategory5=Report
 OutputDocumentPath5=thymio2-main.PcbDoc
-OutputVariantName5=Production Thymio2
-OutputEnabled5=0
+OutputVariantName5=EMS-Proto
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=9
 OutputEnabled5_OutputMedium3=0
@@ -215,7 +215,7 @@ Configuration5_Item1=CaptionAsName
 Configuration5_Name2=Filter
 Configuration5_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration5_Name3=General
-Configuration5_Item3=OpenExported=False|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1452|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration5_Item3=OpenExported=False|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1452|FormHeight=659|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
 Configuration5_Name4=GroupOrder
 Configuration5_Item4=Comment=True|Footprint=True
 Configuration5_Name5=PCBDocument
@@ -411,8 +411,8 @@ OutputType13=BOM_PartType
 OutputName13=Bill of Materials by layers
 OutputCategory13=Report
 OutputDocumentPath13=thymio2-main.PcbDoc
-OutputVariantName13=Production Thymio2
-OutputEnabled13=0
+OutputVariantName13=EMS-Proto
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -430,7 +430,7 @@ Configuration13_Item1=CaptionAsName
 Configuration13_Name2=Filter
 Configuration13_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration13_Name3=General
-Configuration13_Item3=OpenExported=True|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1676|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration13_Item3=OpenExported=True|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1676|FormHeight=659|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
 Configuration13_Name4=GroupOrder
 Configuration13_Item4=Layer=True|Comment=True|Footprint=True
 Configuration13_Name5=PCBDocument
@@ -941,7 +941,7 @@ OutputName29=Export STEP
 OutputCategory29=Export
 OutputDocumentPath29=thymio2-main.PcbDoc
 OutputVariantName29=
-OutputEnabled29=1
+OutputEnabled29=0
 OutputEnabled29_OutputMedium1=0
 OutputEnabled29_OutputMedium2=0
 OutputEnabled29_OutputMedium3=0
@@ -957,7 +957,7 @@ Configuration29_Name1=OutputConfigurationParameter1
 Configuration29_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=0|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ComponentSuffixType=1|ComponentSuffix=
 
 [PublishSettings]
-OutputFilePath1=C:\Users\Michael Bonani\Documents\Thymio\electronics-thymio2\output\aci\
+OutputFilePath1=C:\Users\micha\Documents\Thymio\electronics-thymio2\output\aci\
 ReleaseManaged1=0
 OutputBasePath1=output\aci\
 OutputPathMedia1=
@@ -1051,7 +1051,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\Michael Bonani\Documents\Thymio\electronics-thymio2\output\
+OutputFilePath5=C:\Users\micha\Documents\Thymio\electronics-thymio2\output\
 ReleaseManaged5=0
 OutputBasePath5=output\
 OutputPathMedia5=
@@ -1173,7 +1173,7 @@ OutputFileNameSpecial10=
 OpenOutput10=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\Users\Michael Bonani\Documents\Thymio\electronics-thymio2\output\aci\
+RelativeOutputPath1=C:\Users\micha\Documents\Thymio\electronics-thymio2\output\aci\
 OpenOutputs1=1
 AddToProject1=1
 TimestampFolder1=0
@@ -1189,7 +1189,7 @@ RelativeOutputPath3=C:\Users\Michael Bonani\Documents\Altium\thymio2\trunk\outpu
 OpenOutputs3=1
 RelativeOutputPath4=C:\Users\Michael Bonani\Documents\Altium\thymio2\trunk\output\Thymio2-Montage.PDF
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\Michael Bonani\Documents\Thymio\electronics-thymio2\output\
+RelativeOutputPath5=C:\Users\micha\Documents\Thymio\electronics-thymio2\output\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
