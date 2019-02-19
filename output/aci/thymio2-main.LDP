@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\micha\Documents\Thymio\electronics-thymio2\thymio2-main.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=thymio2-main-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=thymio2-main-slotholes.txt|DrillLayers=gtl,gbl
