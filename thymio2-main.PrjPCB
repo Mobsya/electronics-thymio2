@@ -16,7 +16,7 @@ AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Default Configuration
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -36,6 +36,11 @@ IncludeDesignInRelease=0
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
+
+[Release]
+ReleaseTarget=2
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
 DocumentPath=thymio2-main.SchDoc
@@ -242,23 +247,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CAIRRCBL
 
 [Document13]
-DocumentPath=thymio2-main.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HHWVVOJR
-
-[Document14]
 DocumentPath=CAMV1.502.04.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=CAMtasticprod1.5.05.06.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=CAMV1.6-28.08.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=CAMV1.61-06.09.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=CAMV1.62-10.09.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=CAMV1.63-09.10.2012.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +348,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=CAMV1.7-17.02.14.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +365,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=CAMV1.71-07.03.14.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +382,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=CAMV1.72-28.03.14.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +399,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=CAMV1.8-22.11.17.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +416,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=CAMV1.8.1-14.12.17.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=CAMV1.9-09.02.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=CAMV1.91-09.03.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +467,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=CAMV2.00-23.03.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=CAMV2.01-01.06.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +501,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=CAMV2.10-04.07.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +518,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=STM-LIS2HH12-LGA-12.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +535,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JACIRGXH
 
-[Document31]
+[Document30]
 DocumentPath=STM-LGA-12.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,8 +552,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=CAMV2.20-27.12.18.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document32]
+DocumentPath=thymio2-main.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EPRKQXNA
+
+[Document33]
+DocumentPath=CAMV2.30-19.02.18.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -586,78 +608,93 @@ UniqueID=16B97BD8-CEF0-480D-8AF2-76A6B2AA2125
 Description=Production Thymio2
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=2
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
 Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
-Variation3=Designator=R160|UniqueId=\HNNNTLMX\LYNRBETH|Kind=1|AlternatePart= 
-Variation4=Designator=R161|UniqueId=\HNNNTLMX\IDXWUKWJ|Kind=1|AlternatePart= 
-Variation5=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
-ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
-ParamDesignator1=U27
-ParamVariationCount=1
+ParamVariationCount=0
 
 [ProjectVariant2]
-UniqueID=BC712176-8ADE-4ABB-A210-083B107A439E
-Description=Test point variant
+UniqueID=86B650F5-0658-4274-B5F7-C2D282DE91F4
+Description=Production Thymio2_for_testing
 AllowFabrication=0
 ParameterCount=0
-VariationCount=7
-Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
-Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
-Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
-Variation4=Designator=X3|UniqueId=\XTHGNPMR\SMKPVGHS|Kind=1|AlternatePart= 
-Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
-Variation6=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
-Variation7=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
-ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
-ParamDesignator1=U27
-ParamVariationCount=1
+VariationCount=8
+Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
+Variation3=Designator=D6|UniqueId=\HNNNTLMX\VLESDFGT|Kind=0|AlternatePart=YLL-T50GRB-3-BJ-05
+ParamVariation1=ParameterName=Comment|VariantValue=YLL-T50GRB-3-BJ-05
+ParamDesignator1=D6
+Variation4=Designator=D2|UniqueId=\HNNNTLMX\TGXDXPGM|Kind=0|AlternatePart=YLL-T50GRB-3-BJ-05
+ParamVariation2=ParameterName=Comment|VariantValue=YLL-T50GRB-3-BJ-05
+ParamDesignator2=D2
+Variation5=Designator=R69|UniqueId=\HNNNTLMX\DNKNBUJP|Kind=0|AlternatePart= 
+ParamVariation3=ParameterName=Description|VariantValue=56
+ParamDesignator3=R69
+Variation6=Designator=R68|UniqueId=\HNNNTLMX\DQLLICSS|Kind=0|AlternatePart= 
+ParamVariation4=ParameterName=Description|VariantValue=200
+ParamDesignator4=R68
+Variation7=Designator=R71|UniqueId=\HNNNTLMX\UAUXWWGO|Kind=0|AlternatePart= 
+ParamVariation5=ParameterName=Description|VariantValue=200
+ParamDesignator5=R71
+Variation8=Designator=R72|UniqueId=\HNNNTLMX\MMNKJJVF|Kind=0|AlternatePart= 
+ParamVariation6=ParameterName=Description|VariantValue=56
+ParamDesignator6=R72
+ParamVariationCount=6
 
 [ProjectVariant3]
 UniqueID=B410D89B-41EA-4E46-A31C-BF288972525C
 Description=EMS-Proto
 AllowFabrication=0
 ParameterCount=0
-VariationCount=36
+VariationCount=33
 Variation1=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
 Variation2=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
-Variation3=Designator=R160|UniqueId=\HNNNTLMX\LYNRBETH|Kind=1|AlternatePart= 
-Variation4=Designator=R161|UniqueId=\HNNNTLMX\IDXWUKWJ|Kind=1|AlternatePart= 
-Variation5=Designator=U2|UniqueId=\QLKKVXHK\IWNQUMWC|Kind=1|AlternatePart= 
-Variation6=Designator=U3|UniqueId=\QLKKVXHK\BCBQGUOF|Kind=1|AlternatePart= 
-Variation7=Designator=U6|UniqueId=\QLKKVXHK\RVSXQDES|Kind=1|AlternatePart= 
-Variation8=Designator=U7|UniqueId=\QLKKVXHK\IJAIWKWR|Kind=1|AlternatePart= 
-Variation9=Designator=U8|UniqueId=\QLKKVXHK\OHYXWQGM|Kind=1|AlternatePart= 
-Variation10=Designator=U9|UniqueId=\QLKKVXHK\NUWKTFOM|Kind=1|AlternatePart= 
-Variation11=Designator=U10|UniqueId=\QLKKVXHK\OHVFKWYS|Kind=1|AlternatePart= 
-Variation12=Designator=U11|UniqueId=\QLKKVXHK\FYVIMMFP|Kind=1|AlternatePart= 
-Variation13=Designator=U12|UniqueId=\QLKKVXHK\RDIKDAAI|Kind=1|AlternatePart= 
-Variation14=Designator=U27|UniqueId=\HNNNTLMX\NNPUMSYI|Kind=0|AlternatePart=AP7331-33WG-7
-ParamVariation1=ParameterName=Comment|VariantValue=AP7331-33WG-7
-ParamDesignator1=U27
-Variation15=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
-Variation16=Designator=X2|UniqueId=\EMILSHYX\EJLBGDNK|Kind=1|AlternatePart= 
-Variation17=Designator=D20|UniqueId=\HNNNTLMX\TFBVAGGW|Kind=1|AlternatePart= 
-Variation18=Designator=D19|UniqueId=\HNNNTLMX\EJAKMTSM|Kind=1|AlternatePart= 
-Variation19=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
-Variation20=Designator=LS1|UniqueId=\TSXKLIIC\VAAEKWGW|Kind=1|AlternatePart= 
-Variation21=Designator=BT1|UniqueId=\XTHGNPMR\UFOCPQNX|Kind=1|AlternatePart= 
-Variation22=Designator=D7|UniqueId=\HNNNTLMX\NJKQBXGG|Kind=1|AlternatePart= 
-Variation23=Designator=D12|UniqueId=\HNNNTLMX\CGFLQQCH|Kind=1|AlternatePart= 
-Variation24=Designator=D11|UniqueId=\HNNNTLMX\HLWXSMQX|Kind=1|AlternatePart= 
-Variation25=Designator=D10|UniqueId=\HNNNTLMX\BJIGWLJT|Kind=1|AlternatePart= 
-Variation26=Designator=D9|UniqueId=\HNNNTLMX\FTXBXEPN|Kind=1|AlternatePart= 
-Variation27=Designator=D8|UniqueId=\HNNNTLMX\RODTMBBQ|Kind=1|AlternatePart= 
-Variation28=Designator=D37|UniqueId=\HNNNTLMX\QVJUFHOC|Kind=1|AlternatePart= 
-Variation29=Designator=D36|UniqueId=\HNNNTLMX\TPTODBAQ|Kind=1|AlternatePart= 
-Variation30=Designator=D35|UniqueId=\HNNNTLMX\ALBWBISF|Kind=1|AlternatePart= 
-Variation31=Designator=D32|UniqueId=\XTHGNPMR\RXUWBAXS|Kind=1|AlternatePart= 
-Variation32=Designator=D31|UniqueId=\XTHGNPMR\CAALNEFL|Kind=1|AlternatePart= 
-Variation33=Designator=D26|UniqueId=\HNNNTLMX\FTEACQBD|Kind=1|AlternatePart= 
-Variation34=Designator=D25|UniqueId=\HNNNTLMX\CFJKLGUF|Kind=1|AlternatePart= 
-Variation35=Designator=D18|UniqueId=\HNNNTLMX\NCLEVGHF|Kind=1|AlternatePart= 
-Variation36=Designator=D17|UniqueId=\HNNNTLMX\BKQLUFYL|Kind=1|AlternatePart= 
-ParamVariationCount=1
+Variation3=Designator=U2|UniqueId=\QLKKVXHK\IWNQUMWC|Kind=1|AlternatePart= 
+Variation4=Designator=U3|UniqueId=\QLKKVXHK\BCBQGUOF|Kind=1|AlternatePart= 
+Variation5=Designator=U6|UniqueId=\QLKKVXHK\RVSXQDES|Kind=1|AlternatePart= 
+Variation6=Designator=U7|UniqueId=\QLKKVXHK\IJAIWKWR|Kind=1|AlternatePart= 
+Variation7=Designator=U8|UniqueId=\QLKKVXHK\OHYXWQGM|Kind=1|AlternatePart= 
+Variation8=Designator=U9|UniqueId=\QLKKVXHK\NUWKTFOM|Kind=1|AlternatePart= 
+Variation9=Designator=U10|UniqueId=\QLKKVXHK\OHVFKWYS|Kind=1|AlternatePart= 
+Variation10=Designator=U11|UniqueId=\QLKKVXHK\FYVIMMFP|Kind=1|AlternatePart= 
+Variation11=Designator=U12|UniqueId=\QLKKVXHK\RDIKDAAI|Kind=1|AlternatePart= 
+Variation12=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
+Variation13=Designator=X2|UniqueId=\EMILSHYX\EJLBGDNK|Kind=1|AlternatePart= 
+Variation14=Designator=D20|UniqueId=\HNNNTLMX\TFBVAGGW|Kind=1|AlternatePart= 
+Variation15=Designator=D19|UniqueId=\HNNNTLMX\EJAKMTSM|Kind=1|AlternatePart= 
+Variation16=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
+Variation17=Designator=LS1|UniqueId=\TSXKLIIC\VAAEKWGW|Kind=1|AlternatePart= 
+Variation18=Designator=BT1|UniqueId=\XTHGNPMR\UFOCPQNX|Kind=1|AlternatePart= 
+Variation19=Designator=D7|UniqueId=\HNNNTLMX\NJKQBXGG|Kind=1|AlternatePart= 
+Variation20=Designator=D12|UniqueId=\HNNNTLMX\CGFLQQCH|Kind=1|AlternatePart= 
+Variation21=Designator=D11|UniqueId=\HNNNTLMX\HLWXSMQX|Kind=1|AlternatePart= 
+Variation22=Designator=D10|UniqueId=\HNNNTLMX\BJIGWLJT|Kind=1|AlternatePart= 
+Variation23=Designator=D9|UniqueId=\HNNNTLMX\FTXBXEPN|Kind=1|AlternatePart= 
+Variation24=Designator=D8|UniqueId=\HNNNTLMX\RODTMBBQ|Kind=1|AlternatePart= 
+Variation25=Designator=D37|UniqueId=\HNNNTLMX\QVJUFHOC|Kind=1|AlternatePart= 
+Variation26=Designator=D36|UniqueId=\HNNNTLMX\TPTODBAQ|Kind=1|AlternatePart= 
+Variation27=Designator=D35|UniqueId=\HNNNTLMX\ALBWBISF|Kind=1|AlternatePart= 
+Variation28=Designator=D32|UniqueId=\XTHGNPMR\RXUWBAXS|Kind=1|AlternatePart= 
+Variation29=Designator=D31|UniqueId=\XTHGNPMR\CAALNEFL|Kind=1|AlternatePart= 
+Variation30=Designator=D26|UniqueId=\HNNNTLMX\FTEACQBD|Kind=1|AlternatePart= 
+Variation31=Designator=D25|UniqueId=\HNNNTLMX\CFJKLGUF|Kind=1|AlternatePart= 
+Variation32=Designator=D18|UniqueId=\HNNNTLMX\NCLEVGHF|Kind=1|AlternatePart= 
+Variation33=Designator=D17|UniqueId=\HNNNTLMX\BKQLUFYL|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant4]
+UniqueID=BC712176-8ADE-4ABB-A210-083B107A439E
+Description=Test point variant
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=S2|UniqueId=\EMILSHYX\EGFUVYXR|Kind=1|AlternatePart= 
+Variation2=Designator=U20|UniqueId=\EMILSHYX\RLBLQUTG|Kind=1|AlternatePart= 
+Variation3=Designator=MC1|UniqueId=\TSXKLIIC\LUFDOEVV|Kind=1|AlternatePart= 
+Variation4=Designator=X3|UniqueId=\XTHGNPMR\SMKPVGHS|Kind=1|AlternatePart= 
+Variation5=Designator=U21|UniqueId=\XTHGNPMR\YFSRBMMT|Kind=1|AlternatePart= 
+Variation6=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=output\Bill of Materials-thymio2-main(EMS-Proto).csv
@@ -672,134 +709,154 @@ DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(EMS-Proto).csv
+DocumentPath=output\Bill of Materials-thymio2-main(Production Thymio2_for_testing).xls
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(EMS-Proto).xls
+DocumentPath=output\Bill of Materials-thymio2-main.xls
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).xlsx
+DocumentPath=output\Bill of Materials by layers-thymio2-main(EMS-Proto).csv
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
+DocumentPath=output\Bill of Materials by layers-thymio2-main(EMS-Proto).xls
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=output\aci\Pick Place for thymio2-main(EMS-Proto).txt
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2).txt
+DocumentPath=output\Bill of Materials by layers-thymio2-main(Production Thymio2_for_testing).xls
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=output\aci\thymio2-main-RoundHoles.TXT
+DocumentPath=output\Bill of Materials by layers-thymio2-main.xls
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=output\aci\thymio2-main-SlotHoles.TXT
+DocumentPath=Project Outputs for thymio2-main\Design Rule Check - thymio2-main.html
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=output\aci\thymio2-main.DRR
+DocumentPath=output\aci\Pick Place for thymio2-main(EMS-Proto).txt
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=output\aci\thymio2-main.EXTREP
+DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2).txt
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=output\aci\thymio2-main.GBL
+DocumentPath=output\aci\Pick Place for thymio2-main(Production Thymio2_for_testing).txt
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=output\aci\thymio2-main.GBO
+DocumentPath=output\aci\thymio2-main-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=output\aci\thymio2-main.GBP
+DocumentPath=output\aci\thymio2-main-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=output\aci\thymio2-main.GBS
+DocumentPath=output\aci\thymio2-main.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=output\aci\thymio2-main.GM1
+DocumentPath=output\aci\thymio2-main.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=output\aci\thymio2-main.GM3
+DocumentPath=output\aci\thymio2-main.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=output\aci\thymio2-main.GTL
+DocumentPath=output\aci\thymio2-main.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=output\aci\thymio2-main.GTO
+DocumentPath=output\aci\thymio2-main.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=output\aci\thymio2-main.GTP
+DocumentPath=output\aci\thymio2-main.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=output\aci\thymio2-main.GTS
+DocumentPath=output\aci\thymio2-main.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=output\aci\thymio2-main.LDP
+DocumentPath=output\aci\thymio2-main.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=output\aci\thymio2-main.REP
+DocumentPath=output\aci\thymio2-main.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=output\aci\thymio2-main.TXT
+DocumentPath=output\aci\thymio2-main.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=output\aci\thymio2 capa touch round.DRR
+DocumentPath=output\aci\thymio2-main.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=output\aci\thymio2 capa touch round.EXTREP
+DocumentPath=output\aci\thymio2-main.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=output\aci\thymio2 capa touch round.GBL
+DocumentPath=output\aci\thymio2-main.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=output\aci\thymio2 capa touch round.GBS
+DocumentPath=output\aci\thymio2-main.REP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=output\aci\thymio2 capa touch round.GM1
+DocumentPath=output\aci\thymio2-main.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=output\aci\thymio2 capa touch round.GTL
+DocumentPath=output\aci\thymio2 capa touch round.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=output\aci\thymio2 capa touch round.GTS
+DocumentPath=output\aci\thymio2 capa touch round.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=output\aci\thymio2 capa touch round.LDP
+DocumentPath=output\aci\thymio2 capa touch round.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=output\aci\thymio2 capa touch round.REP
+DocumentPath=output\aci\thymio2 capa touch round.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument36]
+DocumentPath=output\aci\thymio2 capa touch round.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=output\aci\thymio2 capa touch round.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=output\aci\thymio2 capa touch round.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=output\aci\thymio2 capa touch round.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=output\aci\thymio2 capa touch round.REP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
 DocumentPath=output\aci\thymio2 capa touch round.TXT
 DItemRevisionGUID=
 
@@ -809,17 +866,89 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=Revision
-Value=1.8
+Value=2.3
 
 [Configuration1]
-Name=Default Configuration
+Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly Production Thymio2
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=Production Thymio2
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly Production Thymio2_for_testing
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=Production Thymio2_for_testing
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly EMS-Proto
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=EMS-Proto
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration6]
+Name=Assembly Test point variant
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=Test point variant
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration7]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=ACILayoutRequest.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1

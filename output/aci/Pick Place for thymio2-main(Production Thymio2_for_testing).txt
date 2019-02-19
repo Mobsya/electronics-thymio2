@@ -5,8 +5,8 @@ C:\Users\micha\Documents\Thymio\electronics-thymio2\output\aci\Pick Place for th
 File Design Information:
 
 Date:       19.02.19
-Time:       14:12
-Revision:   d5b86e519dec8db756ac9f17c0901a3f1e5c399d
+Time:       15:24
+Revision:   6bb85d45c4b8b3756bbcbf4e5a6778d61dffd998
 Variant:    Production Thymio2_for_testing
 Units used: mm
 
