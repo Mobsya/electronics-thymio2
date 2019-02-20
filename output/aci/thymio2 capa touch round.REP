@@ -2,6 +2,49 @@
 FileName = thymio2 capa touch round.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Solder
+      File : thymio2 capa touch round.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : thymio2 capa touch round.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : thymio2 capa touch round.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
 Generating : Bottom Layer
       File : thymio2 capa touch round.GBL
 
@@ -21,17 +64,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : thymio2 capa touch round.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D21
-*************************************************************
-
-*************************************************************
 Generating : Top Solder
       File : thymio2 capa touch round.GTS
 
@@ -44,37 +76,5 @@ Generating : Top Solder
 
 Used DCodes :
     D10
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : thymio2 capa touch round.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D18
-    D19
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : thymio2 capa touch round.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
 *************************************************************
 

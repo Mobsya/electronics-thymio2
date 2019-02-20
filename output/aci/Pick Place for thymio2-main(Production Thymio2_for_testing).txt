@@ -4,8 +4,8 @@ C:\Users\micha\Documents\Thymio\electronics-thymio2\output\aci\Pick Place for th
 ========================================================================================================================
 File Design Information:
 
-Date:       19.02.19
-Time:       15:24
+Date:       20.02.19
+Time:       14:45
 Revision:   6bb85d45c4b8b3756bbcbf4e5a6778d61dffd998
 Variant:    Production Thymio2_for_testing
 Units used: mm
@@ -258,11 +258,11 @@ R64        4.7K                                       BottomLayer RESC1005X04N  
 R65        4.7K                                       BottomLayer RESC1005X04N         29.9000      -17.2000     90       Resistor                                                                                                                               
 R66        39                                         TopLayer    RESC1005X04N         50.0000      -8.0000      90       Resistor                                                                                                                               
 R67        22K                                        TopLayer    RESC1005X04N         42.5000      -12.0000     360      Resistor                                                                                                                               
-R68        56                                         BottomLayer RESC1005X04N         -32.1500     -14.1250     90       56                                                                                                                                     
-R69        200                                        BottomLayer RESC1005X04N         -31.8250     -18.4750     180      200                                                                                                                                    
+R68        200                                        BottomLayer RESC1005X04N         -32.1500     -14.1250     90       56                                                                                                                                     
+R69        56                                         BottomLayer RESC1005X04N         -31.8250     -18.4750     180      200                                                                                                                                    
 R70        82                                         BottomLayer RESC1005X04N         -32.3000     -10.8500     90       82                                                                                                                                     
-R71        56                                         BottomLayer RESC1005X04N         31.8250      -13.8250     270      56                                                                                                                                     
-R72        200                                        BottomLayer RESC1005X04N         31.8250      -10.4000     90       200                                                                                                                                    
+R71        200                                        BottomLayer RESC1005X04N         31.8250      -13.8250     270      56                                                                                                                                     
+R72        56                                         BottomLayer RESC1005X04N         31.8250      -10.4000     90       200                                                                                                                                    
 R73        82                                         BottomLayer RESC1005X04N         31.8750      -17.4750     90       82                                                                                                                                     
 R74        56                                         BottomLayer RESC1005X04N         -50.4000     5.8000       90       Resistor                                                                                                                               
 R75        56                                         BottomLayer RESC1005X04N         -29.6250     19.5500      90       Resistor                                                                                                                               

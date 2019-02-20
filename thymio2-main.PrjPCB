@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for thymio2-main
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -627,19 +627,35 @@ ParamDesignator1=D6
 Variation4=Designator=D2|UniqueId=\HNNNTLMX\TGXDXPGM|Kind=0|AlternatePart=YLL-T50GRB-3-BJ-05
 ParamVariation2=ParameterName=Comment|VariantValue=YLL-T50GRB-3-BJ-05
 ParamDesignator2=D2
-Variation5=Designator=R69|UniqueId=\HNNNTLMX\DNKNBUJP|Kind=0|AlternatePart= 
+Variation5=Designator=R69|UniqueId=\HNNNTLMX\DNKNBUJP|Kind=0|AlternatePart==Value
 ParamVariation3=ParameterName=Description|VariantValue=56
 ParamDesignator3=R69
-Variation6=Designator=R68|UniqueId=\HNNNTLMX\DQLLICSS|Kind=0|AlternatePart= 
-ParamVariation4=ParameterName=Description|VariantValue=200
-ParamDesignator4=R68
-Variation7=Designator=R71|UniqueId=\HNNNTLMX\UAUXWWGO|Kind=0|AlternatePart= 
-ParamVariation5=ParameterName=Description|VariantValue=200
-ParamDesignator5=R71
-Variation8=Designator=R72|UniqueId=\HNNNTLMX\MMNKJJVF|Kind=0|AlternatePart= 
-ParamVariation6=ParameterName=Description|VariantValue=56
-ParamDesignator6=R72
-ParamVariationCount=6
+ParamVariation4=ParameterName=Value|VariantValue=56
+ParamDesignator4=R69
+ParamVariation5=ParameterName=Comment|VariantValue==Value
+ParamDesignator5=R69
+Variation6=Designator=R68|UniqueId=\HNNNTLMX\DQLLICSS|Kind=0|AlternatePart==Value
+ParamVariation6=ParameterName=Description|VariantValue=200
+ParamDesignator6=R68
+ParamVariation7=ParameterName=Value|VariantValue=200
+ParamDesignator7=R68
+ParamVariation8=ParameterName=Comment|VariantValue==Value
+ParamDesignator8=R68
+Variation7=Designator=R71|UniqueId=\HNNNTLMX\UAUXWWGO|Kind=0|AlternatePart==Value
+ParamVariation9=ParameterName=Description|VariantValue=200
+ParamDesignator9=R71
+ParamVariation10=ParameterName=Value|VariantValue=200
+ParamDesignator10=R71
+ParamVariation11=ParameterName=Comment|VariantValue==Value
+ParamDesignator11=R71
+Variation8=Designator=R72|UniqueId=\HNNNTLMX\MMNKJJVF|Kind=0|AlternatePart==Value
+ParamVariation12=ParameterName=Description|VariantValue=56
+ParamDesignator12=R72
+ParamVariation13=ParameterName=Value|VariantValue=56
+ParamDesignator13=R72
+ParamVariation14=ParameterName=Comment|VariantValue==Value
+ParamDesignator14=R72
+ParamVariationCount=14
 
 [ProjectVariant3]
 UniqueID=B410D89B-41EA-4E46-A31C-BF288972525C
@@ -987,7 +1003,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for thymio2-main
 
 [OutputGroup1]
 Name=Netlist Outputs
