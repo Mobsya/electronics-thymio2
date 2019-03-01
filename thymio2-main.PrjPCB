@@ -603,14 +603,37 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document34]
+DocumentPath=CAMV2.31-01.03.19.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=16B97BD8-CEF0-480D-8AF2-76A6B2AA2125
 Description=Production Thymio2
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=8
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
 Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
+Variation3=Designator=R160|UniqueId=\HNNNTLMX\CCCELXCN|Kind=1|AlternatePart= 
+Variation4=Designator=R161|UniqueId=\HNNNTLMX\QEGVCOMB|Kind=1|AlternatePart= 
+Variation5=Designator=R168|UniqueId=\HNNNTLMX\NJIJRVQQ|Kind=1|AlternatePart= 
+Variation6=Designator=R169|UniqueId=\HNNNTLMX\GJSVSOVT|Kind=1|AlternatePart= 
+Variation7=Designator=R171|UniqueId=\HNNNTLMX\WBBEXGWD|Kind=1|AlternatePart= 
+Variation8=Designator=R170|UniqueId=\HNNNTLMX\ETYOHVYM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -618,7 +641,7 @@ UniqueID=86B650F5-0658-4274-B5F7-C2D282DE91F4
 Description=Production Thymio2_for_testing
 AllowFabrication=0
 ParameterCount=0
-VariationCount=8
+VariationCount=14
 Variation1=Designator=X1|UniqueId=\EMILSHYX\PGCRBEDB|Kind=1|AlternatePart= 
 Variation2=Designator=P1|UniqueId=\EMILSHYX\FGBWBHFP|Kind=1|AlternatePart= 
 Variation3=Designator=D6|UniqueId=\HNNNTLMX\VLESDFGT|Kind=0|AlternatePart=YLL-T50GRB-3-BJ-05
@@ -655,6 +678,12 @@ ParamVariation13=ParameterName=Value|VariantValue=56
 ParamDesignator13=R72
 ParamVariation14=ParameterName=Comment|VariantValue==Value
 ParamDesignator14=R72
+Variation9=Designator=R162|UniqueId=\HNNNTLMX\EGNOGWRT|Kind=1|AlternatePart= 
+Variation10=Designator=R163|UniqueId=\HNNNTLMX\VMCYEIPV|Kind=1|AlternatePart= 
+Variation11=Designator=R164|UniqueId=\HNNNTLMX\PMXCSQEL|Kind=1|AlternatePart= 
+Variation12=Designator=R165|UniqueId=\HNNNTLMX\GKIHWWNO|Kind=1|AlternatePart= 
+Variation13=Designator=R171|UniqueId=\HNNNTLMX\WBBEXGWD|Kind=1|AlternatePart= 
+Variation14=Designator=R170|UniqueId=\HNNNTLMX\ETYOHVYM|Kind=1|AlternatePart= 
 ParamVariationCount=14
 
 [ProjectVariant3]

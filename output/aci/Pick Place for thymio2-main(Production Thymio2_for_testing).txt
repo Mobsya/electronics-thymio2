@@ -4,13 +4,19 @@ C:\Users\micha\Documents\Thymio\electronics-thymio2\output\aci\Pick Place for th
 ========================================================================================================================
 File Design Information:
 
-Date:       20.02.19
-Time:       14:45
+Date:       01.03.19
+Time:       16:23
 Revision:   6bb85d45c4b8b3756bbcbf4e5a6778d61dffd998
 Variant:    Production Thymio2_for_testing
 Units used: mm
 
 Designator Comment                                    Layer       Footprint            Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                            
+R173       0                                          TopLayer    RESC1005X04N         -25.9000     -46.8250     90       Resistor                                                                                                                               
+R172       0                                          TopLayer    RESC1005X04N         -17.3087     -48.9250     270      Resistor                                                                                                                               
+R169       0                                          BottomLayer RESC1005X04N         28.4808      -12.5000     180      Resistor                                                                                                                               
+R168       0                                          BottomLayer RESC1005X04N         28.3500      -10.0000     180      Resistor                                                                                                                               
+R161       0                                          BottomLayer RESC1005X04N         -28.2250     -14.2250     180      Resistor                                                                                                                               
+R160       0                                          BottomLayer RESC1005X04N         -27.5750     -18.0750     180      Resistor                                                                                                                               
 C4         51pF                                       TopLayer    CAPC1005X05N         31.2750      -55.0000     180      Capacitor                                                                                                                              
 R145       4.7K                                       TopLayer    RESC1005X04N         19.2000      -41.0250     360      Resistor                                                                                                                               
 C78        10uF                                       BottomLayer CAPC1005X05N         8.7725       -6.2750      270      Capacitor                                                                                                                              

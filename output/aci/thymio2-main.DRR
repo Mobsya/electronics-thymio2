@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: thymio2-main.PcbDoc   20.02.2019  14:45:29
+NCDrill File Report For: thymio2-main.PcbDoc   01.03.2019  16:23:40
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII SlotHoles File : thymio2-main-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             831       PTH        0.00mm (0.00inch)
+T1      0.3mm (12mil)                                             Round             837       PTH        0.00mm (0.00inch)
 T2      0.33mm (13mil)                                            Round             4         PTH        0.00mm (0.00inch)
 T3      0.55mm (22mil)                                            Slot              2         PTH        0.00mm (0.00inch)
 T4      0.6mm (24mil)                                             Round             2         PTH        0.00mm (0.00inch)
@@ -24,6 +24,6 @@ T13     6mm (236mil)                                              Round         
 T14     0.8mm (31mil)                                             Round             2         NPTH       0.00mm (0.00inch)
 T15     1.5mm (59mil)                                             Round             1         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              894
+Totals                                                                              900
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
