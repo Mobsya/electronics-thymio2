@@ -2,126 +2,6 @@
 FileName = thymio2-main.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Solder
-      File : thymio2-main.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D52
-    D53
-    D54
-    D61
-    D62
-    D66
-    D68
-    D69
-    D75
-    D78
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-    D168
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : thymio2-main.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : thymio2-main.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-*************************************************************
-
-*************************************************************
 Generating : Top Solder
       File : thymio2-main.GTS
 
@@ -187,17 +67,6 @@ Used DCodes :
     D103
     D104
     D105
-*************************************************************
-
-*************************************************************
-Generating : Annotations
-      File : thymio2-main.GM3
-
-    Adding Layer      : Annotations
-
-
-Used DCodes :
-    D17
 *************************************************************
 
 *************************************************************
@@ -341,6 +210,137 @@ Used DCodes :
     D15
     D16
     D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : thymio2-main.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D52
+    D53
+    D54
+    D61
+    D62
+    D66
+    D68
+    D69
+    D75
+    D78
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : thymio2-main.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Annotations
+      File : thymio2-main.GM3
+
+    Adding Layer      : Annotations
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : thymio2-main.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D14
 *************************************************************
 
 *************************************************************
