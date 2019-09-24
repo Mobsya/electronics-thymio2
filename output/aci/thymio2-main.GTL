@@ -1,5 +1,5 @@
 G04*
-G04 #@! TF.GenerationSoftware,Altium Limited,Altium Designer,18.1.9 (240)*
+G04 #@! TF.GenerationSoftware,Altium Limited,Altium Designer,19.1.6 (110)*
 G04*
 G04 Layer_Physical_Order=1*
 G04 Layer_Color=255*
@@ -16995,7 +16995,7 @@ Y634301D01*
 X1123500Y624750D02*
 X1123550Y624801D01*
 D128*
-X1280006Y457010D02*
+X1280006Y457009D02*
 D03*
 D129*
 X969250Y970700D02*

@@ -2,6 +2,20 @@
 FileName = thymio2 capa touch round.GBR
 AutoAperture = True
 *************************************************************
+Generating : Top Layer
+      File : thymio2 capa touch round.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : thymio2 capa touch round.GBS
 
@@ -28,20 +42,6 @@ Generating : Mechanical 1
 
 Used DCodes :
     D21
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : thymio2 capa touch round.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
 *************************************************************
 
 *************************************************************
